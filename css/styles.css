@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.conteudo {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+header {
+    max-width: 580px;
+}
+
+header h2 {
+    color: #222121;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 40px;
+}
+
+header h3 {
+    color: #222121;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+header h2, h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.fundoTopo {
+    display: none;
+}
+
+.comprar {
+    margin: 30px auto 30px;
+    max-width: 450px;
+    font-size: 0;
+}
+
+.comprar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.comprar li a {
+    display: block;
+    height: 25px;
+}
+
+.itunes {
+    background: url("../img/retailers.png");
+    background-repeat: no-repeat;
+    background-position: 0px top;
+    width: 75px;
+}
+
+.applemusic {
+    background: url("../img/retailers.png");
+    background-repeat: no-repeat;
+    background-position: -84px top;
+    width: 100px;
+}
+
+.spotify {
+    background: url("../img/retailers.png");
+    background-repeat: no-repeat;
+    background-position: -189px top;
+    width: 133px;
+}
+
+.googleplay {
+    background: url("../img/retailers.png");
+    background-repeat: no-repeat;
+    background-position: -319px top;
+    width: 100px;
+}
+
+.amazon {
+    background: url("../img/retailers.png");
+    background-repeat: no-repeat;
+    background-position: -424px top;
+    width: 65px;
+}
+
+.itunes:hover { background-position: 1px top;}
+.applemusic:hover { background-position: -83px top;}
+.spotify:hover { background-position: -187px top;}
+.googleplay:hover {background-position: -318px top;}
+.amazon:hover { background-position: -423px top;}
+
+section {
+    background-color: #9e2b1d;
+    padding: 40px 0 40px;
+}
+
+section h1 {
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px 0 15px 0;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.videoConteudo {
+    max-width: 640px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    color: #656464;
+    background-color: #000000;
+    font-size: 14px;
+}
+
+footer a {
+    color: #999797;
+}
+
+footer a:hover {
+    color: #656464;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 8px;
+}
+
+.logoRodape {
+    position: relative;
+    margin: 30px auto 20px;
+}
+
+.direitos {
+    letter-spacing: 2px;
+}
+
+.redesSociais {
+    padding: 80px 0 40px;
+    letter-spacing: 5px;
+}
+
+.redesSociais a {
+    font-size: 35px;
+    color: #9e2b1d;
+}
+
+.redesSociais a:hover {
+    color: #ffffff;
+}
+
+.redesSociais li {
+    display: inline-block;
+    padding-top: 0 15px;
+}
+
+@media (max-width: 550px) {
+    body {
+        
+        background-color: #dee5ec;
+    }
+
+    .fundoTopo {
+        display: block;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 551px) {
+    body {
+        background: url("../img/the-prodigy956x936.png") top center no-repeat;
+    }
+    .logo {
+        width: 433x;
+        height: 177px;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        background: url("../img/theProdiyHD.jpg") top center no-repeat;
+    }
+
+    .logo {
+        width: 350px;
+        height: 177px;
+
+    }
+}
+
+@media (min-width: 1931px) {
+    body {
+        background: url("../img/1962039.jpg") top center no-repeat;
+    }
+
+    .logo {
+        width: 500px;
+        height: 177px;
+    }
+}
+
+.logo, .capa {
+    margin: 30px;
+}
